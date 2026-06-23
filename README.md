@@ -1,4 +1,5 @@
-<img width="1882" height="896" alt="image" src="https://github.com/user-attachments/assets/38c79856-b408-4cfd-9143-ed1dcafe7b81" />## Project Description
+<img width="1885" height="897" alt="image" src="https://github.com/user-attachments/assets/34d56914-e752-477f-8d90-facb51136de4" />
+## Project Description
 
 JSON Formatter & Validator is a modern developer utility designed to simplify working with JSON data. The application allows users to validate JSON syntax, beautify and minify JSON content, inspect data structures through a tree view, and identify formatting errors instantly. Built with a focus on usability and performance, the tool helps developers, QA engineers, and API testers debug and analyze JSON payloads efficiently.
 
