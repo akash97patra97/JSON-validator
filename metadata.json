@@ -1,0 +1,6 @@
+{
+  "name": "JSON Formatter and Validator",
+  "description": "A fully-featured, elegant client-side JSON Formatter, Validator, Compressor, Schema Inspector, and Tree Visualizer with instant error diagnostics and syntax highlighting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
