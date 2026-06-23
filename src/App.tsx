@@ -807,7 +807,7 @@ export default function App() {
       </main>
 
       {/* FOOTER: Diagnostics center to resolve complaints */}
-      <footer className="mt-6 border-t border-slate-800/80 pt-5 relative z-10" id="footer-linter-suite">
+      {/* <footer className="mt-6 border-t border-slate-800/80 pt-5 relative z-10" id="footer-linter-suite">
         <h2 className="text-sm font-bold text-slate-200 mb-3 flex items-center gap-2">
           <Terminal className="w-4 h-4 text-slate-400" />
           JSON Debugging Diagnostics & Interactive Console
@@ -831,7 +831,6 @@ export default function App() {
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {/* Detailed list of complaints */}
             <div className="bg-slate-900/60 border border-slate-800/80 rounded-xl p-4 flex flex-col gap-3">
               <div className="text-xs font-semibold text-slate-300 border-b border-slate-850 pb-2 flex items-center justify-between">
                 <span>Identified Issues ({validation.issues.length})</span>
@@ -870,7 +869,6 @@ export default function App() {
               </div>
             </div>
 
-            {/* Quick-tips & specifications resolver */}
             <div className="bg-slate-900/60 border border-slate-800/80 rounded-xl p-4 text-xs flex flex-col justify-between">
               <div>
                 <h3 className="font-semibold text-slate-300 mb-2">Standard JSON Specification Quick-Sheet</h3>
@@ -898,7 +896,7 @@ export default function App() {
             </div>
           </div>
         )}
-      </footer>
+      </footer> */}
     </div>
   );
 }
