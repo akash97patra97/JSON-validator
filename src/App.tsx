@@ -224,10 +224,11 @@ export default function App() {
 
       {/* Modern Dashboard Header */}
       <header className="mb-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4 border-b border-slate-800/80 pb-5 relative z-10" id="header-widget">
-        <div className="flex items-center gap-3">
+        <div className="flex items-start gap-3">
           <div className="p-2.5 bg-indigo-950/80 border border-indigo-500/30 rounded-xl shadow-lg shadow-indigo-500/5">
             <Braces className="w-6 h-6 text-indigo-400" id="header-icon" />
           </div>
+
           <div>
             <h1 className="text-xl font-bold font-sans tracking-tight text-white flex items-center gap-2">
               JSON Formatter & Validator
@@ -235,9 +236,30 @@ export default function App() {
                 v1.1
               </span>
             </h1>
+
             <p className="text-xs text-slate-400 mt-0.5">
               Beautiful developer tool for editing, instant syntax debugging, and tree inspection.
             </p>
+
+            {/* Submission Requirements */}
+            <div className="mt-3 flex flex-wrap items-center gap-3">
+              <span className="text-xs text-slate-300 font-medium">
+                Akash Kumar Patra
+              </span>
+
+              <span className="text-xs text-slate-500">
+                akash97patra.97@gmail.com
+              </span>
+
+              <a
+                href="https://digitalheroesco.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center rounded-lg bg-indigo-600 px-3 py-1.5 text-xs font-medium text-white transition-all hover:bg-indigo-500"
+              >
+                Built for Digital Heroes
+              </a>
+            </div>
           </div>
         </div>
 
